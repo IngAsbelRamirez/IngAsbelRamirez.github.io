@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO ASBEL</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+    <style>
+#myBtn2
+{
+    position: fixed; /* Fixed/sticky position */
+    bottom: 10px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #707070; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn2:hover {
+    background-color: #9d9b9b; /* Add a dark-grey background on hover */
+  }
+
+
+
+    </style>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn2" title="Go to top">Top</button>
+    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <img src="imagenes/engi.png" alt="Mi Foto" class="profile-pic">
+    </div>
+    <section id="aboot">
+    <h2>Asbel Giomar Ramírez Nájera</h2>
+        <p>Hola soy Asbel Giomar Ramírez Nájera, estudiante de Ingeniería en videojuegos en la Universidad de Morelia,
+            tengo 20 años y siempre he querido trabajar en la industria de los videojuegos.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <a href="tortue.html">
+            <div class="project" style="background-image: url('imagenes/doom.gif');">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción del Proyecto 1...</p>
+            </div>
+        </a>
+        <a href="url-del-proyecto1">
+            <div class="project" style="background-image: url('imagenes/doom.gif');">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción del Proyecto 1...</p>
+            </div>
+        </a>
+        <a href="url-del-proyecto1">
+            <div class="project" style="background-image: url('imagenes/doom.gif');">
+                <h3>Nombre del Proyecto 1</h3>
+                <p>Descripción del Proyecto 1...</p>
+            </div>
+        </a>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través del correo electrónico: <a
+                href="mailto:tuemail@example.com"></a></p>
+        <section id="map-and-content">
+            <div class="content">
+                <h2>Ubicación</h2>
+            </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2233.199580634413!2d-101.2190176588259!3d19.722029098241826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDQzJzE4LjkiTiAxMDHCsDEzJzA1LjMiVw!5e0!3m2!1ses-419!2smx!4v1717681288470!5m2!1ses-419!2smx"
+                style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                id="googleMap"></iframe>
+        </section>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Portafolio. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+
+</html>
